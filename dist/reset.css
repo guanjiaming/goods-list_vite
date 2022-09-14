@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    font-size: 5.33333vw;
+}
+
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 5.33333vw;
+}
+
+:root {
+    --theme-color-pct10: rgba(136,76,255,0.1);
+    --theme-color-pct40: rgba(136,76,255,0.4);
+    --theme-color-pct80: rgba(136,76,255,0.8);
+    --theme-color-pct90: rgba(136,76,255,0.9);
+    --theme-color: rgba(136,76,255,1);
+    --theme-color1-pct10: rgba(199,171,255,0.1);
+    --theme-color1-pct40: rgba(199,171,255,0.4);
+    --theme-color1-pct80: rgba(199,171,255,0.8);
+    --theme-color1-pct90: rgba(199,171,255,0.9);
+    --theme-color1: rgba(199,171,255,1);
+    --theme-color2-pct10: rgba(255,255,255,0.1);
+    --theme-color2-pct40: rgba(255,255,255,0.4);
+    --theme-color2-pct80: rgba(255,255,255,0.8);
+    --theme-color2-pct90: rgba(255,255,255,0.9);
+    --theme-color2: rgba(255,255,255,1);
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+a, a:hover, a:active, a:visited, a:link, a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    background: none;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}

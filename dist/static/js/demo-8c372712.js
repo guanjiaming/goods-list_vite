@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-fa90f7e4.js";import{c as r,o as c,a as o}from"./vendor-c879c4ed.js";const n={};function p(t,s){return c(),r("h1",null," Demo\u9875\u9762 ")}var a=e(n,[["render",p]]);o(a).mount("#app");

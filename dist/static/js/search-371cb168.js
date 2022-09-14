@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-fa90f7e4.js";import{c as r,o,a as p}from"./vendor-c879c4ed.js";const a={name:"Search"};function c(t,s,_,f,m,l){return o(),r("h1",null,"\u641C\u7D22\u9875\u9762")}var n=e(a,[["render",c]]);p(n).mount("#app");

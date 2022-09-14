@@ -1,0 +1,53 @@
+/* Created by guanjiaming on 2021/12/21 */
+
+export default interface SKU {
+  barcode: null;
+  cid: string;
+  code: null;
+  commodityCode: null;
+  costPrice: string;
+  createTime: string;
+  createUserId: string;
+  createUserName: string;
+  deleteFlag: number;
+  fansPrice: null;
+  goodsInfoFlag: null;
+  goodsInfoFlags: null;
+  goodsPromotionLabels: null;
+  id: string;
+  image: string;
+  manageGoodsId: null;
+  managerStatus: number;
+  marketPrice: null;
+  memberPrice: null;
+  mid: string;
+  name: string;
+  participateActivity: boolean;
+  price: string;
+  productBrandInfoId: null;
+  productCatalogInfoId: null;
+  productCategoryInfoId: string;
+  productInfoId: string;
+  profit: null;
+  profitRate: null;
+  purchaseRestrictionNum: null;
+  realPrice: string | null;
+  remark: string | null;
+  saleChannel: null;
+  saleCount: number;
+  salePrice: string;
+  salePriceMax: string | null;
+  salePriceMin: string | null;
+  specs: string;
+  status: number;
+  stepPrice: null;
+  stock: number;
+  templateGoodsInfoId: null;
+  templateProductInfoId: null;
+  tid: null;
+  unit: null;
+  userCache: null;
+  volume: string;
+  warningStock: number;
+  weight: string;
+}
